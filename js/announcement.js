@@ -12,7 +12,7 @@ $(function(){
 	// console.log(wordCount);
 	$(".wordCount span").text(wordCount);		
 })
-function changeCount(){
+function changeCount(){//用于公告内容计数
 	$(".wordCount span").text($(".textArea textarea").val().length);
 }
 $(".release").click(function(){
