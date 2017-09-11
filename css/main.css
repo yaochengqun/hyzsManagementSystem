@@ -34,11 +34,13 @@
 	line-height: 34px;
 	background-color: rgb(34,53,88);
 	border-radius: 3px;
+	color:white;
 	background-image: url(../images/icon_6.png);
 	background-repeat: no-repeat;
 	background-position: left 15px center;
+	background-position: left 15px center\0;
+	-ms-background-position: left 15px center;
 	padding-left:45px;
-	color:white;
 	position: relative;
 }
 .header-box .messages .msg-count{
@@ -93,6 +95,7 @@
 	background-position: left 30px center;
 	padding-left: 40px;
 	border:none;
+	color:white;
 }
 .section-aside #accordion>div{
 	background-color:rgb(50,71,102);

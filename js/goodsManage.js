@@ -37,8 +37,8 @@ $(function(){
 						newInfo.innerHTML = '<td class="proID">'+ goodsArr[i].ProId+'<br>'+ tempType +'</td>\
 							<td class="proName">\
 								<div>\
-									<img src="'+goodsArr[i].Image+'" alt="图片">\
-									'+goodsArr[i].proName+'\
+									<img src="'+goodsArr[i].Image+'" alt="图片"><b class="pName">\
+									'+goodsArr[i].proName+'</b>\
 									<br>\
 									<span>销售价：&yen;'+goodsArr[i].SalePrice+'</span>\
 									<br>\
@@ -51,16 +51,16 @@ $(function(){
 							<td class="proImg">'+'<img src="'+tempFiles+'" alt=""></td>\
 							<td class="operateTd">\
 								<div class="operateA">\
-									<a>上传图片</a>\
+									<a class="uploadImg">上传图片</a>\
 									<span>(必须上传220*200像素以内且最多上传5张)</span>\
 									<br>\
-									<a>编辑介绍</a>\
+									<a class="editA">编辑介绍</a>\
 									<span>(最多输入500字)</span>\
 									<br>\
-									<a>修改价格</a>\
+									<a class="editA">修改价格</a>\
 									<span>(不可高于市场价20%)</span>\
 									<br>\
-									<a>修改库存</a>\
+									<a class="editA">修改库存</a>\
 									<span>(目前库存120)</span>\
 								</div>\
 								<div class="operateBtn">\
