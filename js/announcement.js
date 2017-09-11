@@ -19,7 +19,7 @@ $(".release").click(function(){
 	if($(".textArea textarea").val().length != 0){
 		var createDiv = document.createElement("div");
 		createDiv.innerHTML = '<div class="newPrepend">\
-			'+ new Date().getFullYear()+'-'+ new Date().getMonth()+'-'+ new Date().getDate() +'\
+			'+ new Date().getFullYear()+'-'+ (new Date().getMonth()+1) +'-'+ new Date().getDate() +'\
 			<br>\
 			'+ $(".textArea textarea").val() +'\
 		</div>';
