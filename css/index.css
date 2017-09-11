@@ -1,0 +1,52 @@
+.w{
+    width: 100%;
+    margin: 0 auto;
+}
+#bg-img{
+    width: 100%;
+    /*background: url("img/background.png") no-repeat;*/
+}
+#bg-img img:first-child{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+#bg-img img:nth-child(2){
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#bg-img img:last-child{
+    width: 13%;
+    position: fixed;
+    top: 46.5%;
+    right: 22.5%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+#input-text{
+    width: 50%;
+    font-size: 1.6rem;
+    color: rgb(243,247,246);
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-55%,-75%);
+}
+#input-text label{
+    width: 10%;
+    display: block;
+    float: left;
+    text-align: right;
+    margin: 1% 2% 1% 0;
+}
+#input-text input{
+    width: 35%;
+}
+#input-text label:last-child{
+    margin-right: 5%;
+}

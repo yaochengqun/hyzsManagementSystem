@@ -1,0 +1,144 @@
+.box{
+	height:800px;
+	max-width: 1920px;
+	min-width: 1200px;
+	background-image: url(../images/bg_2.png);
+	padding-top:20px;
+}
+/*头部*/
+.header-box .header-left{
+	height:56px;
+	float:left;
+}
+.header-box .header-right{
+	height:56px;
+	line-height: 56px;
+	float:right;
+	margin-right:-15px;
+}
+.header-box .header-left>div,.header-box .header-right>div{
+	display:inline-block;
+}
+.header-box .logo{
+	width:300px;
+	height:56px;
+	line-height: 56px;
+	background-image:url(../images/logo.png);
+	background-repeat: no-repeat;
+	padding-left:70px;
+	color:white;
+}
+.header-box .messages{
+	width:85px;
+	height:34px;
+	line-height: 34px;
+	background-color: rgb(34,53,88);
+	border-radius: 3px;
+	background-image: url(../images/icon_6.png);
+	background-repeat: no-repeat;
+	background-position: left 15px center;
+	padding-left:45px;
+	color:white;
+	position: relative;
+}
+.header-box .messages .msg-count{
+	position: absolute;
+	left:25px;
+	top:2px;
+}
+.header-box .user-info{
+	width:174px;
+	height:34px;
+	line-height: 34px;
+	background-image: url(../images/pic_4.png);
+	position: relative;
+}
+.header-box .user-info img{
+	position: absolute;
+	left:-5px;
+	top:-3px;
+}
+.header-box .user-info select{
+	border:none;
+	background:none;
+	color:white;
+	margin-left:50px;
+}
+.header-box .logout-btn{
+	width:104px;
+	height:33px;
+	line-height: 33px;
+	background-image: url(../images/pic_5.png);
+	color:white;
+	text-align: center;
+}
+/*主体部分*/
+.section{
+	min-width: 1200px;
+	margin-top:20px;
+}
+/*主体部分侧栏*/
+.section-aside .active{
+	background-image:url(../images/pic_8.png);
+	background-repeat: no-repeat;
+}.section-aside #accordion{
+	width:214px;
+}
+.section-aside #accordion h3{
+	font-size: 25px;
+	font-weight: bold;
+	background-color:rgb(50,71,102);
+	background-image: url(../images/icon_1.png);
+	background-repeat: no-repeat;
+	background-position: left 30px center;
+	padding-left: 40px;
+	border:none;
+}
+.section-aside #accordion>div{
+	background-color:rgb(50,71,102);
+	padding:5px;
+	border:none;
+}
+.section-aside #accordion #menu{
+	background-color:rgb(50,71,102);
+	border:none;
+}
+.section-aside #menu li:hover{
+	background-image:url(../images/pic_8.png);
+	background-repeat: no-repeat;
+}
+.section-aside #menu a{
+	display:block;
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	color:white;
+	padding:0;
+	padding-left:40px;
+	background-repeat: no-repeat;
+	background-position: left 15px center;
+}
+.section-aside #menu .store{
+	background-image:url(../images/icon_2.png);
+}
+.section-aside #menu .goods{
+	background-image:url(../images/icon_3.png);
+}
+.section-aside #menu .order{
+	background-image:url(../images/icon_4.png);
+}
+.section-aside #menu .announcement{
+	background-image:url(../images/icon_5.png);
+}
+.section-aside #menu a:hover{
+	text-decoration: none;
+	border:none;
+}
+
+iframe{
+	width:95%;
+	height:600px;
+	margin:10px;
+	padding:0 20px;
+	background-image:url(../images/bg.png);
+}

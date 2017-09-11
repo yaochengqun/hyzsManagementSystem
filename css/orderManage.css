@@ -1,0 +1,84 @@
+h3,h4{
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+h3{
+	margin-top:35px;
+}
+.operate-bar{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	background-color: white;
+	margin-top:10px;
+}
+.operate-bar select{
+	margin-left: 50px;
+	border:none;
+}
+.order-box{
+	height:400px;
+	overflow-y: auto;
+}
+.order-list{
+	width:100%;
+	border:1px solid rgb(170,170,170);
+	border-collapse: collapse;
+	font-size: 12px;
+}
+.order-list td{
+	border:1px solid rgb(170,170,170);
+	text-align: center;
+}
+.colorGreen{
+	color:rgb(68,178,90);
+}
+.order-list tr td:first-child{
+	width:100px;
+}
+.orderPro{
+	width:160px;
+}
+.orderInfo img{
+	width:40px;
+	height:40px;
+}
+.order-list .userInfo{
+	text-align: left;
+	padding:0 5px;
+}
+.order-list .orderInfo{
+	width:170px;
+}
+.order-list .orderInfo div{
+	display:inline-block;
+	width:80%;
+	text-align: left;
+	padding:10px 0;
+}
+a:hover{
+	cursor:pointer;
+}
+.order-list tr td:last-child{
+	width:200px;
+	padding:0 5px;
+	text-align: left;
+}
+.order-list tr td:last-child a{
+	font-weight: bold;
+	padding-left:18px;
+	line-height: 20px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size:14px;
+}
+.order-list .editBtn{
+	background-image: url(../images/icon_9.png);
+}
+.order-list .sendPro{
+	background-image: url();
+}
+.order-list .evaluate{
+	background-image: url();
+}

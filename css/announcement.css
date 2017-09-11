@@ -1,0 +1,46 @@
+h3,h4{
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+h3{
+	margin-top:35px;
+}
+.release{
+	float:right;
+	color:rgb(48,174,75);
+	border:none;
+	background:none;
+	cursor: pointer;
+}
+.textArea{
+	background-color: white;
+	margin-top:30px;
+	border-radius: 10px;
+	padding:10px;
+}
+.textArea textarea{
+	width:100%;
+	height:150px;
+	border:none;
+	border-radius: 10px;
+	outline: none;
+	resize: none;
+}
+.textArea .wordCount{
+	margin-top:10px;
+	padding-right:30px;
+	text-align: right;
+	color:#999;
+}
+.releaseBox{
+	margin-top:10px;
+	font-size:14px;
+	color:#333;
+	height:240px;
+	overflow-y: auto;
+}
+.releaseBox .newPrepend{
+	padding:30px 0 10px 0;
+	border-bottom:1px dotted #999;
+}

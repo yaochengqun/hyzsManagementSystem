@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商城后台管理系统</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../js/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="../css/jquery-ui.min.css">
+	<script src="../js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+	<div class="container-fluid box">
+		<div class="row header-box">
+			<div class="col-md-12">
+				<div class="header-left">
+					<div class="logo">
+						商城后台管理系统
+					</div>
+					<div class="messages">
+						消息
+						<img src="../images/icon_7.png" alt="" class="msg-count">
+					</div>
+				</div>
+				<div class="header-right">
+					<div class="user-info">
+						<img src="../images/pic_3.png" alt="" class="user-pic">
+						<select name="" id="">
+							<option value="">
+								Hello! <span>jesinon</span>
+							</option>
+						</select>
+					</div>
+					<div class="logout-btn">
+						&times; 退出
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row section">
+			<div class="col-md-2 col-sm-2 section-aside">
+				<div id="accordion">
+					<h3>商户管理</h3>
+					<div>
+						<ul id="menu">
+							<li class="active">
+								<a href="#" class="store">店铺管理 store</a>
+							</li>
+							<li>
+								<a href="#" class="goods">商品管理 goods</a>
+							</li>
+							<li>
+								<a href="#" class="order">订单管理 order</a>
+								</li>
+							<li>
+								<a href="#" class="announcement">发布公告 announcement</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-10 col-sm-10 section-content">
+				<iframe src="storeManage.html" frameborder="0" scrolling="no"></iframe>
+				
+			</div>
+		</div>
+	</div>
+	<script src="../js/main.js"></script>
+</body>
+</html>

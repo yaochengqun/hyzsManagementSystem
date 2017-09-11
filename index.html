@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div class="w">
+    <div id="bg-img">
+        <img src="images/background.png" alt=""/>
+        <img src="images/pic_2.png" alt=""/>
+        <img src="images/pic_1.png" id="entry" alt="" />
+    </div>
+    <div id="input-text">
+        <form>
+            <div class="form-group">
+                <label for="username">用户名：</label>
+                <input type="username" class="form-control" id="username">
+            </div>
+            <div class="form-group">
+                <label for="password">密码：</label>
+                <input type="password" class="form-control" id="password" >
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    $(function(){
+        $("#entry").click(function(){
+            var username = $("#username").val();
+            var password = $("#password").val();
+            var reg = /^[a-zA-Z\d]\w{3,11}[a-zA-Z\d]$/;
+            var patrn=/^[a-zA-Z]{1}([a-zA-Z0-9]|[._]){4,19}$/;
+
+            if(reg.test(username)&&patrn.test(password)){
+                location.href = "html/main.html";
+            }else{
+                alert("请输入正确账号、密码！！！")
+            }
+        })
+    })
+</script>
+</body>
+</html>
